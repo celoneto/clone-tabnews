@@ -1,7 +1,10 @@
+import { useState } from "react";
+
 function Home() {
+  const [data, setData] = useState(21 - new Date().getUTCDate())
   return (
     <h1>
-      Faltam 28 dias para estarmos ligados até o fim das nossas vidas 😬♥️
+      Faltam {data} dias para o começo do fim das nossas vidas 😬♥️
     </h1>
   );
 }
