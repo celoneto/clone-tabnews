@@ -15,6 +15,7 @@ test("somar NaN com 5 deve retornar 'Erro'", () => {
   expect(resultado).toBe('Erro')
 })
 
+
 test("subtrair 2 com 5 deve retornar -3", () => {
   const resultado = calculadora.subtrair(2, 5)
   expect(resultado).toBe(-3)
